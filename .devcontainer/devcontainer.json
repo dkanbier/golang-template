@@ -1,0 +1,16 @@
+{
+	"name": "Golang development",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": { 
+			"GOLANG_VERSION": "1.18.4-alpine"
+		}
+	},
+	"forwardPorts": [
+		4200
+	],
+	"extensions": [
+		"ms-vscode-remote.remote-containers",
+		"golang.go"
+	]
+}
